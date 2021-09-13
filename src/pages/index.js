@@ -11,6 +11,26 @@ export default function Home (props) {
         <li>
           <a href='/ssr'>SSR page</a>
         </li>
+        <li>
+          <a href='/breed/pug'>Dynamic route page</a>
+          <ul>
+            <li>
+              <a href='/breed/pug'>Pug</a>
+            </li>
+            <li>
+              <a href='/breed/boxer'>Boxer</a>
+            </li>
+            <li>
+              <a href='/breed/chow'>Chow</a>
+            </li>
+            <li>
+              <a href='/breed/husky'>Husky</a>
+            </li>
+            <li>
+              <a href='/breed/shiba'>Shiba</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </>
   )
