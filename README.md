@@ -44,7 +44,7 @@ exports.createPages = ({
 Add the link to an existing page in order to allow access to the page
 
 ```
-  <a href='/dsg'>DSG page</a>
+  <Link to='/dsg'>DSG page</Link>
 ```
 
 ### SSR
