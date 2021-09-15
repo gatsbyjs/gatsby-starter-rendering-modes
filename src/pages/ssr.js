@@ -1,12 +1,13 @@
 import * as React from 'react'
 import fetch from 'node-fetch'
+import { Link } from 'gatsby'
 
 export default function SSR (props) {
   const { image } = props.serverData
 
   return (
     <>
-      <a href='/'>Home</a><br />
+      <Link to='/'>Home</Link><br />
       <h1>SSR: Server Side Rendering</h1>
       <img
         alt='doggo'

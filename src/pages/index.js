@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 export default function Home (props) {
   return (
@@ -6,10 +7,10 @@ export default function Home (props) {
       <h1>Rendering Modes Starter</h1>
       <ul>
         <li>
-          <a href='/dsg'>DSG page</a>
+          <Link to='/dsg'>DSG page</Link>
         </li>
         <li>
-          <a href='/ssr'>SSR page</a>
+          <Link to='/ssr'>SSR page</Link>
         </li>
       </ul>
     </>
