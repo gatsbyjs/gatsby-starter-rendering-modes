@@ -1,5 +1,6 @@
 {
   "name": "gatsby-starter-rendering-modes",
+  "private": true,
   "version": "1.0.0",
   "description": "A Gatsby starter to demonstrate new rendering modes in Gatsby 4",
   "main": "index.js",
@@ -9,9 +10,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "keywords": [],
   "author": "Brent Jackson <jxnblk@gmail.com>",
-  "license": "MIT",
+  "license": "0BSD",
   "dependencies": {
     "gatsby": "4.0.0-alpha-9689ff.9",
     "node-fetch": "^2.6.2",
