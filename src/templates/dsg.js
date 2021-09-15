@@ -1,10 +1,11 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 export default function DSG (props) {
 
   return (
     <>
-      <a href='/'>Home</a><br />
+      <Link to='/'>Home</Link><br />
       <h1>DSG: Deferred Static Generation</h1>
     </>
   )
