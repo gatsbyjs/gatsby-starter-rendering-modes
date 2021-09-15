@@ -10,7 +10,7 @@
 
 Kick off your project with this rendering-modes boilerplate. This starter ships with examples of how to use the different rendering modes available for gatsby. Now, you can render ahead of time(SSG), just in time(SSR), or fashionably late(DSG)💃.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/starters/)._
 
 
 
